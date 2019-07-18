@@ -1,0 +1,9 @@
+development:
+  adapter: async
+
+test:
+  adapter: async
+
+production:
+  adapter: redis
+  url: redis://redistogo:ef12a9c7aa1a85d9b53a95fb6d7ae3df@hammerjaw.redistogo.com:10542/
